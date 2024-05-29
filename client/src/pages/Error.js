@@ -1,14 +1,14 @@
 import Header from "../components/layout/Header.js";
 import Footer from "../components/layout/Footer.js";
 
-function Contact() {
+function Home() {
   return (
-    <div className="contact-pageContainer">
+    <div className="home-pageContainer">
       <Header />
-      <h1>Contact Page</h1>
+      <h1>This site dont exist</h1>
       <Footer />
     </div>
   );
 }
 
-export default Contact;
+export default Home;

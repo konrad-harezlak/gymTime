@@ -1,22 +1,23 @@
-import {BrowseRouter as Router, Route, Switch} from 'react-router-dom'
-import Home from './pages/Home.js'
-import Contact from './pages/Contact.js'
-import Excercies from './pages/Excercies.js'
-import Login from './pages/Login.js'
-import Register from './pages/Register.js'
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home.js";
+import Contact from "./pages/Contact.js";
+import Excercies from "./pages/Excercies.js";
+import Login from "./pages/Login.js";
+import Register from "./pages/Register.js";
+import Error from "./pages/Error.js";
+import "./assets/styles/app.scss";
 
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route path='./pages' component={Home}/>
-        <Route path='./pages' component={Excercies}/>
-        <Route path='./pages' component={Contact}/>
-        <Route path='./pages' component={Login}/>
-        <Route path='./pages' component={Register}/>
-
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/excercies" element={<Excercies />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
     </Router>
   );
 }
