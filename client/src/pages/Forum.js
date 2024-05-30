@@ -1,16 +1,16 @@
 import Header from "../components/layout/Header.js";
 import Footer from "../components/layout/Footer.js";
-
-function Excercies() {
+import '../assets/styles/forum.scss'
+function Forum() {
   return (
     <div>
       <Header />
       <main>
-        <h1>Excercies Page</h1>
+        <h1>Forum Container</h1>
       </main>
       <Footer />
     </div>
   );
 }
 
-export default Excercies;
+export default Forum;

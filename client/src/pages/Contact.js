@@ -3,9 +3,11 @@ import Footer from "../components/layout/Footer.js";
 
 function Contact() {
   return (
-    <div className="contact-pageContainer">
+    <div>
       <Header />
-      <h1>Contact Page</h1>
+      <main>
+        <h1>Contact Page</h1>
+      </main>
       <Footer />
     </div>
   );

@@ -2,6 +2,23 @@ $main-bg: #ccc;
 $main-color: #222;
 * {
     box-sizing: border-box;
+    font-family: 'Abhaya Libre', sans-serif;
+}
+body{
+    margin:0;
+    background-color: #ddd;
+    
+}
+main{
+    height: 80vh;
     background-color: $main-bg;
     color:$main-color;
+    width: 80vw;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
 }

@@ -1,11 +1,13 @@
 import Header from "../components/layout/Header.js";
 import Footer from "../components/layout/Footer.js";
-
+import '../assets/styles/home.scss'
 function Home() {
   return (
-    <div className="home-pageContainer">
+    <div>
       <Header />
-      <h1>Home Page</h1>
+      <main>
+        <h1>Home Container</h1>
+      </main>
       <Footer />
     </div>
   );

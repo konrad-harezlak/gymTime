@@ -3,9 +3,11 @@ import Footer from "../components/layout/Footer.js";
 
 function Home() {
   return (
-    <div className="home-pageContainer">
+    <div>
       <Header />
-      <h1>This site dont exist</h1>
+      <main>
+        <h1>This site doesn't exist</h1>
+      </main>
       <Footer />
     </div>
   );

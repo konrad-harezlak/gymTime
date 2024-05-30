@@ -3,11 +3,13 @@ import Footer from "../components/layout/Footer.js";
 
 function Login() {
   return (
-    <div className="login-pageContainer">
-      <Header />
-      <h1>Login Page</h1>
-      <Footer />
-    </div>
+    <div>
+    <Header />
+    <main>
+      <h1>LOGIN!!!</h1>
+    </main>
+    <Footer />
+  </div>
   );
 }
 
