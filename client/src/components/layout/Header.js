@@ -5,21 +5,21 @@ function Header() {
   return (
     <header className="header-container">
       <ul className="header__list">
-        <li className="header__list__item">
-          <Link to="/">Home</Link>
-        </li>
-        <li className="header__list__item">
-          <Link to="/exercises">Exercises</Link>
-        </li>
-        <li className="header__list__item">
-          <Link to="/forum">Forum</Link>
-        </li>
-        <li className="header__list__item">
-          <Link to="/contact">Contact</Link>
-        </li>
-        <li className="header__list__item">
-          <Link to="/login">Login</Link>
-        </li>
+        <Link className="header__list__item" to="/">
+          <li>Home</li>
+        </Link>
+        <Link className="header__list__item" to="/exercises">
+          <li>Exercises</li>
+        </Link>
+        <Link className="header__list__item" to="/forum">
+          <li>Forum</li>
+        </Link>
+        <Link className="header__list__item" to="/contact">
+          <li>Contact</li>
+        </Link>
+        <Link className="header__list__item" to="/login">
+          <li>Login</li>
+        </Link>
       </ul>
     </header>
   );
