@@ -1,0 +1,105 @@
+.exercises-page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    &__exercise-category {
+      border: 1px solid black;
+      height: 30vh;
+      width: 18vw;
+      margin: 1vw;
+      margin-top: 0;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.7s;
+      border-radius: 10px;
+  
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.0);
+        transition: background-color 0.7s;
+      }
+  
+      h1 {
+        opacity: 0;
+        transition: opacity 0.7s;
+        position: absolute;
+        top: 44%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+      }
+  
+      &:hover {
+        &::before {
+          background-color: rgba(0, 0, 0, 0.5); 
+        }
+  
+        h1 {
+          opacity: 1;
+        }
+      }
+    }
+    #first_img {
+        background-image: url('../images/squat.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    
+      #second_img {
+        background-image: url('../images/dl.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    
+      #third_img {
+        background-image: url('../images/bp.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    
+      #fourth_img {
+        background-image: url('../images/ohp.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    
+      #fifth_img {
+        background-image: url('../images/triceps.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    
+      #sixth_img {
+        background-image: url('../images/biceps.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    
+      #seventh_img {
+        background-image: url('../images/calves.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    
+      #eighth_img {
+        background-image: url('../images/forearms.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+  
+
