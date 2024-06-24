@@ -11,8 +11,15 @@
 .contact__links{
     border-right: 1px solid black;
 }
+.contact__links ul{
+    display: flex;
+    justify-content: space-evenly;
+}
 .contact__links li{
-    list-style: none;
+    list-style: none
+}
+.contact__links li img{
+    width: 30px;
 }
 .contact__links, .contact__form{
     display: flex;

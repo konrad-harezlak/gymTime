@@ -17,8 +17,8 @@
   background-color: #900;
   padding: 25px;
   border-radius: 15px;
-  color: #ccc;
-  font-size: calc(0.8vw + 0.7vh);
+  color: #eee;
+  font-size: calc(0.9vw + 0.8vh);
   transition: transform, text-shadow 0.3s;
   border: 1px solid #600;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -34,6 +34,6 @@
   margin-right: 3vw;
   color: #390;
 }
-.header__list__item a{
-    color: #ccc;
+.header__list__item a li{
+    color: #000;
 }
