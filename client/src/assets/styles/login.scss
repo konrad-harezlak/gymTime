@@ -1,3 +1,45 @@
-.login-container{
-    display:flex;
+.login-container {
+  display: flex;
+}
+.login-container__login-form,
+.login-container__register-container {
+  width: 50%;
+}
+.login-container__login-form h1{
+    text-align: center;
+}
+.login-container__login-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.login-container__login-form__input {
+  width: 60%;
+  height: 5vh;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+  border: 1px solid #aaa;
+}
+.login-container__login-form button {
+  width: 20%;
+  height: 4vh;
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+  border: 1px solid #aaa;
+}
+.login-container__register-container {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+.login-container__register-container__button {
+  width: 80%;
+  border: 1px solid white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

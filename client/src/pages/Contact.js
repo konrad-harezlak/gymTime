@@ -29,15 +29,17 @@ function Contact() {
               <FontAwesomeIcon icon={faTiktok} size='3x'/>
             </li>
           </ul>
+          <div className="contact__info">
           <h2>Skontaktuj się z nami:</h2>
           <ul>
-            <li>Adres Email: biuro@gymtime.com</li>
-            <li>Numer telefonu: +48 123 123 123</li>
+            <li>Adres Email: <a href="mailto:biuro@gymtime.com">biuro@gymtime.com</a></li>
+            <li>Numer telefonu: <a href="tel:+48123123123">+48 123 123 123</a></li>
           </ul>
           <span>
             Jesteśmy czynni od poniedziałku do piątku <br />w godzianch
             8:00-16:00
           </span>
+          </div>
         </div>
         <div className="contact__form">
           <h2>Wyślij do nas maila:</h2>
@@ -67,12 +69,12 @@ function Contact() {
               autoComplete="on"
             ></input>
             <label htmlFor="message"> Wiadomość:</label>
-            <input
+            <textarea
               className="contact__form__input-container__input"
               id="message"
               type="text"
               placeholder="Wiadmość.."
-            ></input>
+            ></textarea>
             <input
               className="contact__form__input-container__input"
               type="button"
